@@ -1,16 +1,57 @@
 ## Hi there 👋
 
-<!--
-**MohithAllu/MohithAllu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!DOCTYPE html>
+<html lang="en">
 
-Here are some ideas to get you started:
+<head>
+    <meta charset="UTF-8">
+    <title >Mohith Allu Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="certification.html">Certifications</a></li>
+                <li><a href="internship.html">Internships</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="softwares.html">Software</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <center>
+            <h1 style="margin-top:100px;" id="name">Mohith Allu Portfolio</h1>
+            <section class="card">
+                <div>
+                <img class="card-photo" src="assets/mohith.jpg" alt="Mohith Allu" >
+                </div>
+            <div class="about">
+            <h2 class="card-photo-title">About:</h2>
+            <p>
+                Hi! Guys, Welcome to my portfolio<br>
+                I am Mohith, an aspiring Computer Science student<br>
+                Contact <img id="skillphoto" src="assets/phone.webp" alt="Phone">: +91 9347228230<br>
+                Email <img id="skillphoto" src="assets/Gmail_Logo_128px.webp" alt="Email">: mohithallu90@gmail.com<br>
+                LinkedIn <img id="skillphoto" src="assets/linkedin.webp" alt="LinkedIn">: 
+                <a href="https://www.linkedin.com/in/mohith-allu-360056258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">MohithAllu</a><br>
+                Resume: 
+                <a href="https://www.canva.com/design/DAGSHufrXF4/aN7NYjvqc0jx1H3cv0MKTw/edit?utm_content=DAGSHufrXF4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Click</a>
+            </p>
+        </div>
+        </section>
+        </center>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mohith Allu. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
